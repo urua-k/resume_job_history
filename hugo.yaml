@@ -88,7 +88,7 @@ params:
       services:
         light: true # ライトテーマを有効化。デフォルトは "true"
         dark: true # ダークテーマを有効化。デフォルトは "true"
-        default: system # light、dark、または system のいずれか。デフォルトは "system"
+        default: dark # light、dark、または system のいずれか。デフォルトは "system"
 
     # ポートフォリオを有効化して設定
     portfolio:
