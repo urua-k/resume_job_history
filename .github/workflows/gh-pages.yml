@@ -25,6 +25,17 @@ jobs:
           hugo-version: '0.146.0'
           extended: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pack Hugo modules for npm
+        run: hugo mod npm pack
+
+      - name: Install npm deps
+        run: npm install
+
       - name: Build
         run: hugo --minify
 
