@@ -1,0 +1,86 @@
+# section information
+section:
+  name: Work Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 書籍・グッズ小売企業の社内SE
+    location: 東京
+    logo: /images/sections/experiences/company1.jpg
+    overview: 経験した分野を生かし、ユーザーに近い位置で事業を支援するため社内SEとして入社。<br/>
+              RPA開発・ビックデータ活用・BIツールでの社内レポートの作成 / 既存帳票の置き換えに関わっています。<br/>
+              DX分野だけでなく、全社横断的に利用するパッケージ製品の保守運用や外部ベンダーとのやりとりにも参画。<br/>
+              <br/>
+              メインの担当分野は社内ビックデータ活用のデータエンジニアリング。<br/>
+              チョットだけアナリスト。<br/>
+  positions:
+  - designation: Data Engineer
+    start: 2023年3月
+    responsibilities:
+    - Power BI を活用し業務帳票のレポート化で、導入時点で工数合計50時間/月以上の削減を達成
+    - Excelでは分割/サマリでしか確認できなかった大規模データの可視化環境を整え業務活用を実現
+    - Microsoft FabricのPoC、社内での分析処理を再構築を担当し、トライアル導入を推進中。
+
+  - designation: DX/RPA Engineer
+    start: 2022年10月
+    end: 2024年12月
+    responsibilities:
+    - Power Automete Desktopを利用したロボを30件以上開発、工数70時間/月以上の削減を達成
+    - Google Apps Scriptを活用した業務自動化で、工数30時間/月以上の削減を達成
+    - 出荷伝票/実績伝票の突合に動的計画法を用いた処理を実装
+
+  - designation: In-house Engineer
+    start: 2022年10月
+    responsibilities:
+    - チーム内ツールを Dockerコンテナで構築、運用
+    - パッケージ製品が有していない機能をニーズに合わせてプラグイン開発
+
+- company:
+    name: 国内大手のシステムエンジニアリング派遣企業
+    location: 広島 - 東京
+    logo: /images/sections/experiences/company2.jpg
+    overview: より多くの経験を求め、広島から上京するため全国展開しているSES企業に所属。<br/>
+              広島では発電所を生産している工場内のプロジェクトに参画し、プロパーと密に連携をとり、他社メンバーへのサポートとプロジェクトの推進に貢献。<br/>
+              今まで保守要員がいなかった Fortran のモジュールをコードから処理の流れをキャッチアップし、案件の完了に貢献。<br/>
+              <br/>
+              実績が認められ無事東京支店への異動が叶い、北欧発のグローバル通信機器メーカーのプロジェクトに参画し劣化判定モジュールの開発を担当。
+  positions:
+  - designation: Backend Engineer
+    start: 2020年04月
+    end: 2022年09月
+    responsibilities:
+    - 通信設備自動劣化検知システム
+  - designation: Software Engineer
+    start: 2018年10月
+    end: 2020年02月
+    responsibilities:
+    - 発電所設計支援システムの開発・カスタマイズ
+    - CADのアドイン開発
+    - 設計文書・図面検索アプリのGUI開発
+
+- company:
+    name: 電子カルテ導入・オプションシステム開発ベンダ
+    location: 広島 - 大阪
+    # logo: /images/sections/experiences/company1.png
+    overview: 複数の病院の電子カルテ導入支援とオプションシステムの開発を担当。 <br/>
+              オプションシステムとは、電子カルテと連携して独自の機能を付随させることが出来るシステムです。<br/>
+              <br/>
+              例えば、病院独自の予約管理方法や得意とする糖尿病の特化した診療に合わせた機能を実装し、<br/>
+              病院スタッフのニーズに合わせて機能を実装します。<br/>
+              <br/>
+              連携先の電子カルテの仕様把握、自社ライブラリのメンテナンス、共通インターフェースの実装を担当。<br/>
+              併せて、開発メンバー内での命名規則の調整とドキュメント整備を行いました。<br/>
+  positions:
+  - designation: Software Engineer
+    start: 2014年06月
+    end: 2017年12月
+    responsibilities:
+    - 複数の病院にカスタマイズ機能の経験
+    - サブリーダーを経験し開発業務とメンバーの支援・進捗管理を担当

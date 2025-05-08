@@ -1,0 +1,102 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Basic
+  filter: "basic"
+- name: Language
+  filter: "language"
+- name: Tool
+  filter: "tool"
+- name: Beginner
+  filter: "beginner"
+- name: Others
+  filter: "others"
+
+skills:
+
+- name: Python
+  logo: /images/sections/skills/python-logo-only.svg
+  summary: "PythonでのETLやFlaskでの簡易API開発、Seleniumでの業務自動化とpandas/polarsでのデータ処理の実装経験あり"
+  categories: ["basic", "language"]
+  url: "https://www.python.org/"
+
+- name: SQL
+  logo: /images/sections/skills/SQL-48_45464.png
+  summary: "SQLによるテーブル設計からクエリ最適化・運用<br/>アプリケーション内でのSQL実行やORM連携によりデータ処理を効率化"
+  categories: ["basic", "language"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Gitによるバージョン管理。<br/>少人数でのブランチ運用、リリース管理。<br/>Gtilabの構築経験あり"
+  categories: ["basic", "beginner"]
+  url: "https://git-scm.com/"
+
+- name: Google Apps Script
+  logo: /images/sections/skills/google_script_apps_logo_icon.png
+  summary: "G Suite向け自動化<br/>スプレッドシート・フォーム連携・GoogleDriveのOCR機能を利用した業務効率化"
+  categories: ["basic"]
+  url: "https://git-scm.com/"
+
+- name: Power Automate Desktop
+  logo: /images/sections/skills/PowerAutomate_scalable.svg
+  summary: "Excel・ファイル操作ワークフロー構築<br/>エラー通知の設計・運用保守まで担当。<br/>Power Automateの経験は少々。"
+  categories: ["basic"]
+  url: "https://git-scm.com/"
+
+- name: Power BI
+  logo: /images/sections/skills/PowerBI_scalable.svg
+  summary: "DAX/Power Query分析・ETL経験<br/>ニーズに合わせた可視化・レイアウト検討<br/>レポート構築のスキル研鑽と拡張ビジュアルの勉強中"
+  categories: ["basic", "tool"]
+  url: "https://git-scm.com/"
+
+- name: Microsoft Fabric
+  logo: /images/sections/skills/fabric_48_color.svg
+  summary: "PoCの担当を実施し、トライアル導入までを推進<br/>独学の機能習熟からMicrosoft認定：DP-700を取得、自身が構築した分析環境の再構築を実施中"
+  categories: ["basic", "tool"]
+  url: "https://git-scm.com/"
+
+- name: TypeScript
+  logo: /images/sections/skills/typescript.png
+  summary: "他チームの一時的なヘルプ対応としてAngularで実装されたWebアプリの改修時に経験<br/>他にはプライベートのアプリ開発にて利用"
+  categories: ["beginner", "language"]
+  url: "https://git-scm.com/"
+
+- name: Apache Airflow
+  logo: /images/sections/skills/Apache_Airflow.svg
+  summary: "<br/>Microsoft Fabric環境での利用のため、現在勉強中。<br/>&emsp;<br/>&emsp;"
+  categories: ["beginner", "tool"]
+  url: "https://git-scm.com/"
+
+- name: dbt
+  logo: /images/sections/skills/dbt-bit_tm.png
+  summary: "<br/>Microsoft Fabric環境での利用のため、現在勉強中。<br/>&emsp;<br/>&emsp;"
+  categories: ["beginner", "tool"]
+  url: "https://git-scm.com/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "適切なイメージを選定し、コンテナの作成・実行まで基本的な操作が可能<br/>チーム内利用のコンテナの運用の経験あり"
+  categories: ["basic", "beginner", "Tool/Platforme"]
+  url: "https://www.docker.com/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "cd,ls,chmodといった基本的な操作から、必要なツールのインストール・環境構築が可能。<br/>主に利用していたディストリビューションはUbuntu"
+  categories: ["others"]
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "<br/>プライベートの利用経験のみ。(GCP,AWS,Azure)<br/>&emsp;<br/>&emsp;"
+  categories: ["others"]

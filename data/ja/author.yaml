@@ -1,0 +1,12 @@
+name: "Akito Hirahara"
+nickname: "Akito"
+greeting: "Hi, I am"
+image: "images/author/icon.jpg"
+contactInfo:
+  email: "a-hirahara@quantvelt.com"
+  github: urua-k
+summary:
+  - I am a In-house IT engineer
+  - I am a Data Engineer
+  - I have a side job.
+  - I love using data to do something meaningful.
