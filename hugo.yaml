@@ -1,4 +1,6 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://urua-k.github.io/
+relativeURLs: true
+canonifyURLs: true
 
 languageCode: ja
 title: "Hirahara Akito Storyboard"
