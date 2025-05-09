@@ -20,8 +20,8 @@ customMenus:
 
 # OpenGraphヘッダーを指定します
 openGraph:
-  title: Akito's Blog
+  title: Akito's Storyboard
   type: website
-  description: Portfolio and personal blog of Akito Hirahara.
+  description: Portfolio and Storyboard of Akito Hirahara.
   image: images/author/icon.png
   url: https://urua-k.github.io
