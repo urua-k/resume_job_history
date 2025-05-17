@@ -50,6 +50,11 @@ badges:
   badge: "https://images.credly.com/size/340x340/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png"
 
 - type: certification
+  name: Microsoft Certified Azure Data Fundamentals
+  url: "https://learn.microsoft.com/api/credentials/share/ja-jp/17497434/E36B87C7D4CACC0?sharingId=769C8B26EACB575C"
+  badge: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
+
+- type: certification
   name: "Microsoft Certified: Power Platform Fundamentals"
   url: "https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-power-platform-fundamentals"
   badge: "https://images.credly.com/size/340x340/images/2a6251f2-737b-4bf6-9190-d77570cc76fc/CERT-Fundamentals-Power-Platform.png"
@@ -63,11 +68,6 @@ badges:
   name: Google AI Essentials
   url: "https://www.credly.com/org/googlecareercertificates/badge/google-ai-essentials"
   badge: "https://images.credly.com/size/340x340/images/ea3eec65-ddad-4242-9c59-1defac0fa2d9/image.png"
-
-- type: certification
-  name: 
-  url: ""
-  badge: ""
 
 - type: soft-skill-indicator
   name: 好奇心
